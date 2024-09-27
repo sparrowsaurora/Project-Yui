@@ -1,0 +1,1 @@
+ok hopefully this works it's really funny that you didn't get get the audio so it called my file knownyep my file and my file has been blessed ok hopefully this is writing i can see my nundah md file is there and i don't have a python file there so we're going to do thisend session
