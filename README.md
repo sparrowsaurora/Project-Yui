@@ -35,5 +35,24 @@ it was created to manage daily tasks, automate workflows, and assist with coding
 - yui's display model was made to be interactive, inspired by [Vedal987](https://github.com/Vedal987)'s Neuro-sama,<br>
 - however the character is different<br>
 
-## requirements
-- pip install pyadio speech_recognition etc. <br>
+## File Paths
+Project_Yui/
+│
+├── main.py              # Main script to initialize the assistant
+├── modules/
+│   ├── voice_notes_dir  # directory that holds voice note files
+│   ├── voice_input.py   # Module for capturing voice input
+│   ├── speech_output.py # Module for voice responses
+│   ├── emailer.py       # Module for sending emails
+│   ├── task_automation.py # Module for task automation
+│   ├── note_taker.py    # Module for taking notes
+│   ├── voice_record.py  # Module for recording voice
+│   ├── wikipedia_search.py # Module for Wikipedia searches
+│   ├── browser_automation.py # Module for opening tabs
+│   ├── time_and_date.py # Module for stating time and date
+│   ├── file_reader.py   # Module for reading files out loud
+│   ├── code_writer.py   # Module for generating code files from voice
+│   ├── display_model.py # Module for the cute female display model
+│
+├── README.md            # Its a read me file, what do you expect?
+└── requirements.txt     # Dependencies

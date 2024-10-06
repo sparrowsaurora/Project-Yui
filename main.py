@@ -1,5 +1,8 @@
 # main.py
-from modules import voice_input, speech_output, emailer, code_writer, time_and_date, note_taker
+from modules import voice_input, speech_output, emailer, code_writer, time_and_date, note_taker, voice_notes
+from modules import calculator, weather, joke_teller, to_do_list, reminder, calendar, news, browser, music_player
+from modules import open_app, dictionary, math, unit_converter, currency_converter, joke_generator, random_number_generator
+
 ended = False
 def main():
     global ended
@@ -20,6 +23,9 @@ def main():
                 time_and_date.print_wa_time()
             elif "note" in user_command or "notes" in user_command:
                 note_taker.write_code_file()
+            elif "voice note" in user_command or "voice" in user_command:
+                voice_notes.voice_notes_main()
+            
             # Add more commands here...
 
 if __name__ == "__main__":
