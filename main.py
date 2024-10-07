@@ -25,7 +25,8 @@ def main():
                 note_taker.write_code_file()
             elif "voice note" in user_command or "voice" in user_command:
                 voice_notes.voice_notes_main()
-            
+            elif "weather" in user_command or "temperature" in user_command:
+                weather.main()
             # Add more commands here...
 
 if __name__ == "__main__":
